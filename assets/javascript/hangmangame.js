@@ -20,7 +20,6 @@ var reset = function() {
     userGuess = "";
     correctLetters = [];
     window.onload();
-    alert("You lose, try again.");
 }
 
 var dashAnswer = function() {
