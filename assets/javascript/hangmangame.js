@@ -22,10 +22,6 @@ var reset = function() {
     window.onload();
 }
 
-var dashAnswer = function() {
-    var post = newBlankDashArray
-}
-
 var update = function() {
     var html =
         "<p>Wins: " + wins + "</p>" +
@@ -61,9 +57,6 @@ window.onload = function() {
         var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
 
-
-
-
         if (guessArray.indexOf(userGuess) == -1) {
             guessArray.push(userGuess);
             update();
@@ -86,7 +79,6 @@ window.onload = function() {
                         update();
                     }
                 }
-
 
                 if (correctLetters.length == wordArray.length) {
                     wins++;
